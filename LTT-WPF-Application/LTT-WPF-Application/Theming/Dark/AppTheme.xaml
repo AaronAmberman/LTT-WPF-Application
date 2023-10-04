@@ -1,0 +1,51 @@
+﻿<!-- 
+    Dark
+-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    mc:Ignorable="options">
+    <Color x:Key="LTT_WPF_Application.Foreground.Color">#FFFFFFFF</Color>
+    <Color x:Key="LTT_WPF_Application.Foreground.Disabled.Color">#FF7D7D7D</Color>
+    <Color x:Key="LTT_WPF_Application.Foreground.Error.Color">#FFFF0000</Color>
+    <Color x:Key="LTT_WPF_Application.Border.Color">#FFFFFFFF</Color>
+    <Color x:Key="LTT_WPF_Application.Grid.Color">#FF1F1F1F</Color>
+    <Color x:Key="LTT_WPF_Application.InternalDialog.Color">#FF2F2F2F</Color>
+    <Color x:Key="LTT_WPF_Application.InternalDialog.Title.Color">#FF101010</Color>
+    <Color x:Key="LTT_WPF_Application.InternalDialog.ButtonArea.Color">#FF2F2F2F</Color>
+    <Color x:Key="LTT_WPF_Application.MessageBox.Color">#FF2F2F2F</Color>
+    <Color x:Key="LTT_WPF_Application.MessageBox.Foreground.Color">#FFFFFFFF</Color>
+    <Color x:Key="LTT_WPF_Application.MessageBox.Title.Color">#FF101010</Color>
+    <Color x:Key="LTT_WPF_Application.MessageBox.ButtonArea.Color">#FF2F2F2F</Color>
+    <Color x:Key="LTT_WPF_Application.ProgressBox.Background.Color">#FF2F2F2F</Color>
+    <Color x:Key="LTT_WPF_Application.ProgressBox.Foreground.Color">#FFFFFFFF</Color>
+    <Color x:Key="LTT_WPF_Application.ProgressBox.Title.Background.Color">#FF2F2F2F</Color>
+
+    <SolidColorBrush x:Key="LTT_WPF_Application.Foreground" Color="{DynamicResource LTT_WPF_Application.Foreground.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.Foreground.Disabled" Color="{DynamicResource LTT_WPF_Application.Foreground.Disabled.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.Foreground.Error" Color="{DynamicResource LTT_WPF_Application.Foreground.Error.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.Border" Color="{DynamicResource LTT_WPF_Application.Border.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.Grid" Color="{DynamicResource LTT_WPF_Application.Grid.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.InternalDialog" Color="{DynamicResource LTT_WPF_Application.InternalDialog.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.InternalDialog.Title" Color="{DynamicResource LTT_WPF_Application.InternalDialog.Title.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.InternalDialog.ButtonArea" Color="{DynamicResource LTT_WPF_Application.InternalDialog.ButtonArea.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.MessageBox" Color="{DynamicResource LTT_WPF_Application.MessageBox.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.MessageBox.Foreground" Color="{DynamicResource LTT_WPF_Application.MessageBox.Foreground.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.MessageBox.Title" Color="{DynamicResource LTT_WPF_Application.MessageBox.Title.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.MessageBox.ButtonArea" Color="{DynamicResource LTT_WPF_Application.MessageBox.ButtonArea.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.ProgressBox.Background" Color="{DynamicResource LTT_WPF_Application.ProgressBox.Background.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.ProgressBox.Foreground" Color="{DynamicResource LTT_WPF_Application.ProgressBox.Foreground.Color}" options:Freeze="True"/>
+    <SolidColorBrush x:Key="LTT_WPF_Application.ProgressBox.Title.Background" Color="{DynamicResource LTT_WPF_Application.ProgressBox.Title.Background.Color}" options:Freeze="True"/>
+    
+    <Style x:Key="GridStyle" TargetType="Grid">
+        <Setter Property="Background" Value="{DynamicResource LTT_WPF_Application.Grid}" />
+    </Style>
+    <Style x:Key="TextBlockForegroundStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{DynamicResource LTT_WPF_Application.Foreground}" />
+    </Style>
+    <Style x:Key="BorderStyle" TargetType="Border">
+        <Setter Property="BorderBrush" Value="{DynamicResource LTT_WPF_Application.Border}" />
+        <Setter Property="BorderThickness" Value="1" />
+    </Style>
+</ResourceDictionary>
