@@ -26,3 +26,5 @@ Uses a simple ServiceLocator pattern along with MVVM for XAML.
 ![image](https://github.com/AaronAmberman/LTT-WPF-Application/assets/23512394/b8aac3c3-43cc-4c52-8ec2-13ceb056ab86)
 
 ![image](https://github.com/AaronAmberman/LTT-WPF-Application/assets/23512394/84ee5692-ee56-4118-a409-7d7bbabf2621)
+
+![image](https://github.com/AaronAmberman/LTT-WPF-Application/assets/23512394/a2edd860-ed73-4e33-a9b7-0ce7e551cc01)
