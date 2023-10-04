@@ -13,3 +13,6 @@ The application uses [WPF.Translations](https://github.com/AaronAmberman/WPF.Tra
 
 ### Themed
 The application is also setup for themeing, light and dark. It uses the theming work I put into [this](https://github.com/AaronAmberman/WPF.Themes) repository. Please check it out for WPF themes that change most of the built in control's appearance.
+
+## Design Patterns
+Uses a simple ServiceLocator pattern along with MVVM for XAML.
