@@ -5,11 +5,9 @@
     <sys:String x:Key="AboutAppMessage">Modello di applicazione WPF a tema tradotto registrato (LTT).</sys:String>
     <sys:String x:Key="Browse">Navigare</sys:String>
     <sys:String x:Key="BrowseTitle">Cerca File</sys:String>
-    <sys:String x:Key="Dark">Buio</sys:String>
-    <sys:String x:Key="MainWindowTitle">Modello di applicazione LTT WPF</sys:String>
-    <sys:String x:Key="Settings">Impostazioni</sys:String>
     <sys:String x:Key="Cancel">Annulla</sys:String>
     <sys:String x:Key="Chinese">中文</sys:String> <!-- Chinese Simplified -->
+    <sys:String x:Key="Dark">Buio</sys:String>
     <sys:String x:Key="English">English</sys:String>
     <sys:String x:Key="Error">Errore</sys:String>
     <sys:String x:Key="Errors">Errori</sys:String>
@@ -26,12 +24,14 @@
     <sys:String x:Key="LogSettingFileNote">Nota: per impostazione predefinita, l'applicazione registrerà il percorso in cui è in esecuzione (a meno che non sia impostata questa impostazione) o, se per qualche motivo non è possibile determinarla, registrerà sul desktop.</sys:String>
     <sys:String x:Key="LogWriteErrorMessage">Si è verificato un errore durante il tentativo di scrittura nel file di registro. Impossibile accedere.</sys:String>
     <sys:String x:Key="LogWriteErrorTitle">Errore di scrittura del registro</sys:String>
+    <sys:String x:Key="MainWindowTitle">Modello di applicazione LTT WPF</sys:String>
     <sys:String x:Key="Name">Nome</sys:String>
     <sys:String x:Key="No">NO</sys:String>
     <sys:String x:Key="Norwegian">Norsk</sys:String>
     <sys:String x:Key="OK">OK</sys:String>
     <sys:String x:Key="Portuguese">português</sys:String>
     <sys:String x:Key="Russian">Русский</sys:String>
+    <sys:String x:Key="Settings">Impostazioni</sys:String>
     <sys:String x:Key="Spanish">español</sys:String>
     <sys:String x:Key="Theme">Tema</sys:String>
     <sys:String x:Key="UnhandledErrorMessage">Si è verificata un'eccezione non gestita nell'applicazione. Lo abbiamo registrato. Per ulteriori dettagli consultare il registro.</sys:String>

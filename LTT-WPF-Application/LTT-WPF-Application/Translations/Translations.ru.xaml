@@ -5,11 +5,9 @@
     <sys:String x:Key="AboutAppMessage">Зарегистрированный переведенный тематический шаблон приложения WPF (LTT).</sys:String>
     <sys:String x:Key="Browse">Просматривать</sys:String>
     <sys:String x:Key="BrowseTitle">Найти файл</sys:String>
-    <sys:String x:Key="Dark">темный</sys:String>
-    <sys:String x:Key="MainWindowTitle">Шаблон приложения LTT WPF</sys:String>
-    <sys:String x:Key="Settings">Настройки</sys:String>
     <sys:String x:Key="Cancel">Отмена</sys:String>
     <sys:String x:Key="Chinese">中文</sys:String> <!-- Chinese Simplified -->
+    <sys:String x:Key="Dark">темный</sys:String>
     <sys:String x:Key="English">English</sys:String>
     <sys:String x:Key="Error">Ошибка</sys:String>
     <sys:String x:Key="Errors">Ошибки</sys:String>
@@ -26,12 +24,14 @@
     <sys:String x:Key="LogSettingFileNote">Примечание. По умолчанию приложение регистрируется там, где оно выполняется (если этот параметр не установлен), или, если по какой-либо причине это невозможно определить, оно регистрируется на рабочем столе.</sys:String>
     <sys:String x:Key="LogWriteErrorMessage">Произошла ошибка при попытке записи в файл журнала. Невозможно войти в систему.</sys:String>
     <sys:String x:Key="LogWriteErrorTitle">Ошибка записи журнала</sys:String>
+    <sys:String x:Key="MainWindowTitle">Шаблон приложения LTT WPF</sys:String>
     <sys:String x:Key="Name">Имя</sys:String>
     <sys:String x:Key="No">Нет</sys:String>
     <sys:String x:Key="Norwegian">Norsk</sys:String>
     <sys:String x:Key="OK">ХОРОШО</sys:String>
     <sys:String x:Key="Portuguese">português</sys:String>
     <sys:String x:Key="Russian">Русский</sys:String>
+    <sys:String x:Key="Settings">Настройки</sys:String>
     <sys:String x:Key="Spanish">español</sys:String>
     <sys:String x:Key="Theme">Тема</sys:String>
     <sys:String x:Key="UnhandledErrorMessage">В приложении произошло необработанное исключение. Мы это зарегистрировали. Пожалуйста, смотрите журнал для получения более подробной информации.</sys:String>

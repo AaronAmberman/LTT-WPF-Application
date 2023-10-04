@@ -5,11 +5,9 @@
     <sys:String x:Key="AboutAppMessage">Plantilla de aplicación WPF temática traducida (LTT) registrada.</sys:String>
     <sys:String x:Key="Browse">Navegar</sys:String>
     <sys:String x:Key="BrowseTitle">Buscar archivo</sys:String>
-    <sys:String x:Key="Dark">Oscuro</sys:String>
-    <sys:String x:Key="MainWindowTitle">Plantilla de aplicación LTT WPF</sys:String>
-    <sys:String x:Key="Settings">Ajustes</sys:String>
     <sys:String x:Key="Cancel">Cancelar</sys:String>
     <sys:String x:Key="Chinese">中文</sys:String> <!-- Chinese Simplified -->
+    <sys:String x:Key="Dark">Oscuro</sys:String>
     <sys:String x:Key="English">English</sys:String>
     <sys:String x:Key="Error">Error</sys:String>
     <sys:String x:Key="Errors">Errores</sys:String>
@@ -26,12 +24,14 @@
     <sys:String x:Key="LogSettingFileNote">Nota: de forma predeterminada, la aplicación se registrará en el lugar donde se está ejecutando (a menos que se establezca esta configuración), o si no se puede determinar por algún motivo, se registrará en el escritorio.</sys:String>
     <sys:String x:Key="LogWriteErrorMessage">Se produjo un error al intentar escribir en el archivo de registro. No se puede iniciar sesión.</sys:String>
     <sys:String x:Key="LogWriteErrorTitle">Error de escritura del registro</sys:String>
+    <sys:String x:Key="MainWindowTitle">Plantilla de aplicación LTT WPF</sys:String>
     <sys:String x:Key="Name">Nombre</sys:String>
     <sys:String x:Key="No">No</sys:String>
     <sys:String x:Key="Norwegian">Norsk</sys:String>
     <sys:String x:Key="OK">DE ACUERDO</sys:String>
     <sys:String x:Key="Portuguese">português</sys:String>
     <sys:String x:Key="Russian">Русский</sys:String>
+    <sys:String x:Key="Settings">Ajustes</sys:String>
     <sys:String x:Key="Spanish">español</sys:String>
     <sys:String x:Key="Theme">Tema</sys:String>
     <sys:String x:Key="UnhandledErrorMessage">Se produjo una excepción no controlada en la aplicación. Lo hemos registrado. Consulte el registro para obtener más detalles.</sys:String>

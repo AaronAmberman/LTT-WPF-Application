@@ -5,11 +5,9 @@
     <sys:String x:Key="AboutAppMessage">ログに記録された翻訳テーマ (LTT) WPF アプリケーション テンプレート。</sys:String>
     <sys:String x:Key="Browse">ブラウズ</sys:String>
     <sys:String x:Key="BrowseTitle">ファイルを参照</sys:String>
-    <sys:String x:Key="Dark">暗い</sys:String>
-    <sys:String x:Key="MainWindowTitle">LTT WPF アプリケーション テンプレート</sys:String>
-    <sys:String x:Key="Settings">設定</sys:String>
     <sys:String x:Key="Cancel">キャンセル</sys:String>
     <sys:String x:Key="Chinese">中文</sys:String> <!-- Chinese Simplified -->
+    <sys:String x:Key="Dark">暗い</sys:String>
     <sys:String x:Key="English">English</sys:String>
     <sys:String x:Key="Error">エラー</sys:String>
     <sys:String x:Key="Errors">エラー</sys:String>
@@ -26,12 +24,14 @@
     <sys:String x:Key="LogSettingFileNote">注: デフォルトでは、アプリケーションは実行している場所にログを記録します (この設定が設定されていない場合)。何らかの理由でそれが特定できない場合は、デスクトップにログが記録されます。</sys:String>
     <sys:String x:Key="LogWriteErrorMessage">ログ ファイルに書き込もうとしたときにエラーが発生しました。ログを記録できません。</sys:String>
     <sys:String x:Key="LogWriteErrorTitle">ログ書き込みエラー</sys:String>
+    <sys:String x:Key="MainWindowTitle">LTT WPF アプリケーション テンプレート</sys:String>
     <sys:String x:Key="Name">名前</sys:String>
     <sys:String x:Key="No">いいえ</sys:String>
     <sys:String x:Key="Norwegian">Norsk</sys:String>
     <sys:String x:Key="OK">わかりました</sys:String>
     <sys:String x:Key="Portuguese">português</sys:String>
     <sys:String x:Key="Russian">Русский</sys:String>
+    <sys:String x:Key="Settings">設定</sys:String>
     <sys:String x:Key="Spanish">español</sys:String>
     <sys:String x:Key="Theme">テーマ</sys:String>
     <sys:String x:Key="UnhandledErrorMessage">アプリケーションでハンドルされない例外が発生しました。記録しました。詳細についてはログを参照してください。</sys:String>

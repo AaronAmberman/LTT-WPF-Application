@@ -5,11 +5,9 @@
     <sys:String x:Key="AboutAppMessage">Modelo de aplicativo WPF com tema traduzido registrado (LTT).</sys:String>
     <sys:String x:Key="Browse">Procurar</sys:String>
     <sys:String x:Key="BrowseTitle">Procurar arquivo</sys:String>
-    <sys:String x:Key="Dark">Escuro</sys:String>
-    <sys:String x:Key="MainWindowTitle">Modelo de aplicativo LTT WPF</sys:String>
-    <sys:String x:Key="Settings">Configurações</sys:String>
     <sys:String x:Key="Cancel">Cancelar</sys:String>
     <sys:String x:Key="Chinese">中文</sys:String> <!-- Chinese Simplified -->
+    <sys:String x:Key="Dark">Escuro</sys:String>
     <sys:String x:Key="English">English</sys:String>
     <sys:String x:Key="Error">Erro</sys:String>
     <sys:String x:Key="Errors">Erros</sys:String>
@@ -26,12 +24,14 @@
     <sys:String x:Key="LogSettingFileNote">Nota: por padrão, o aplicativo registrará onde está sendo executado (a menos que esta configuração esteja definida) ou, se isso não puder ser determinado por algum motivo, ele registrará na área de trabalho.</sys:String>
     <sys:String x:Key="LogWriteErrorMessage">Ocorreu um erro ao tentar gravar no arquivo de log. Não foi possível fazer logon.</sys:String>
     <sys:String x:Key="LogWriteErrorTitle">Erro de gravação de registro</sys:String>
+    <sys:String x:Key="MainWindowTitle">Modelo de aplicativo LTT WPF</sys:String>
     <sys:String x:Key="Name">Nome</sys:String>
     <sys:String x:Key="No">Não</sys:String>
     <sys:String x:Key="Norwegian">Norsk</sys:String>
     <sys:String x:Key="OK">OK</sys:String>
     <sys:String x:Key="Portuguese">português</sys:String>
     <sys:String x:Key="Russian">Русский</sys:String>
+    <sys:String x:Key="Settings">Configurações</sys:String>
     <sys:String x:Key="Spanish">español</sys:String>
     <sys:String x:Key="Theme">Tema</sys:String>
     <sys:String x:Key="UnhandledErrorMessage">Ocorreu uma exceção não tratada no aplicativo. Nós registramos isso. Por favor, veja o log para mais detalhes.</sys:String>
