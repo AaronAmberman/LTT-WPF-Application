@@ -12,4 +12,4 @@ You can specify a log path in the settings window. By default the application wi
 The application uses [WPF.Translations](https://github.com/AaronAmberman/WPF.Translations) to assist in managing translations. Nuget package avilable [here](https://www.nuget.org/packages/WPF.Translations/). 
 
 ### Themed
-The application is also setup for themeing, light and dark. It uses the theming work I put into [this](https://github.com/AaronAmberman/WPF.Themes) repository. Please check it out for WPF themes that change most of the built in controls appearance.
+The application is also setup for themeing, light and dark. It uses the theming work I put into [this](https://github.com/AaronAmberman/WPF.Themes) repository. Please check it out for WPF themes that change most of the built in control's appearance.
