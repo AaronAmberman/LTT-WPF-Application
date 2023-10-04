@@ -16,3 +16,6 @@ The application is also setup for themeing, light and dark. It uses the theming 
 
 ## Design Patterns
 Uses a simple ServiceLocator pattern along with MVVM for XAML.
+
+![image](https://github.com/AaronAmberman/LTT-WPF-Application/assets/23512394/b8aac3c3-43cc-4c52-8ec2-13ceb056ab86)
+
