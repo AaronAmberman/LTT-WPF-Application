@@ -29,4 +29,4 @@ Uses a simple ServiceLocator pattern along with MVVM for XAML.
 
 ![image](https://github.com/AaronAmberman/LTT-WPF-Application/assets/23512394/1a2b6856-fcbb-4f93-9558-ca3d94665931)
 
-These changes happen **without** needing to restart the application. Just click OK on the settings screen.
+These changes happen ***without*** needing to restart the application. Just click OK on the settings screen.
