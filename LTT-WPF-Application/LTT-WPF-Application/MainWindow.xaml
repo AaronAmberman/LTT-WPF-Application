@@ -151,7 +151,7 @@
             </Grid>
         </internalDialogs:MovableResizableInternalDialog>
         <internalDialogs:ProgressInternalDialog x:Name="progressDialog" 
-                                                CloseOnEscape="False" 
+                                                CloseOnEscape="False" IsModal="False"
                                                 ProgressDialogBackground="{DynamicResource LTT_WPF_Application.ProgressBox.Background}" 
                                                 TitleAreaBackground="{DynamicResource LTT_WPF_Application.ProgressBox.Title.Background}" 
                                                 Foreground="{DynamicResource LTT_WPF_Application.ProgressBox.Foreground}"
