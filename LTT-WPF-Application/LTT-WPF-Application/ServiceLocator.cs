@@ -1,6 +1,6 @@
 ﻿using LTT_WPF_Application.Services;
 using LTT_WPF_Application.ViewModels;
-using SimpleLogger;
+using SimpleRollingLogger;
 
 namespace LTT_WPF_Application
 {

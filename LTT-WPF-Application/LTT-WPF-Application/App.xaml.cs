@@ -2,7 +2,7 @@
 using LTT_WPF_Application.Services;
 using LTT_WPF_Application.Theming;
 using LTT_WPF_Application.ViewModels;
-using SimpleLogger;
+using SimpleRollingLogger;
 using System;
 using System.Diagnostics;
 using System.Globalization;
