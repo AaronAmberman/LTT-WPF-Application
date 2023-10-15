@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:customControls="clr-namespace:WPF.AA.CustomControls;assembly=WPF.AA.CustomControls">
-    <Style x:Key="HighlightWatermarkTextBox" TargetType="{x:Type customControls:WatermarkTextBox}" 
+    <Style x:Key="WatermarkTextBoxStyle" TargetType="{x:Type customControls:WatermarkTextBox}" 
            BasedOn="{StaticResource {x:Type customControls:WatermarkTextBox}}">
         <Setter Property="Background" Value="{DynamicResource TextBoxBase.Background}"/>
         <Setter Property="BorderBrush" Value="{DynamicResource TextBox.Border}"/>
@@ -70,7 +70,7 @@
         </Style.Triggers>
     </Style>
 
-    <Style x:Key="HighlightRoundableToggleButton" TargetType="{x:Type customControls:RoundableToggleButton}" 
+    <Style x:Key="RoundableToggleButtonStyle" TargetType="{x:Type customControls:RoundableToggleButton}" 
            BasedOn="{StaticResource {x:Type customControls:RoundableToggleButton}}">
         <Setter Property="FocusVisualStyle" Value="{DynamicResource FocusVisual}"/>
         <Setter Property="Background" Value="{DynamicResource Button.Background}"/>
@@ -95,7 +95,7 @@
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsChecked" Value="True">
                             <Setter Property="Background" TargetName="border" Value="{DynamicResource Button.Background}" />
-                            <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource HighlightRoundableToggleButton.IsChecked.Border}" />
+                            <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource RoundableToggleButtonStyle.IsChecked.Border}" />
                         </Trigger>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" TargetName="border" Value="{DynamicResource Button.MouseOver.Background}"/>
@@ -116,7 +116,7 @@
         </Setter>
     </Style>
 
-    <Style x:Key="HighlightNumericUpDown" TargetType="{x:Type customControls:NumericUpDown}">
+    <Style x:Key="NumericUpDownStyle" TargetType="{x:Type customControls:NumericUpDown}">
         <Setter Property="FocusVisualStyle" Value="{DynamicResource FocusVisual}"/>
         <Setter Property="Background" Value="{DynamicResource TextBox.Background}"/>
         <Setter Property="BorderBrush" Value="{DynamicResource TextBox.Border}"/>
@@ -168,7 +168,7 @@
     </Style>
 
     <!-- Apply styles to controls -->
-    <Style BasedOn="{StaticResource HighlightNumericUpDown}" TargetType="customControls:NumericUpDown" />
-    <Style BasedOn="{StaticResource HighlightRoundableToggleButton}" TargetType="customControls:RoundableToggleButton" />
-    <Style BasedOn="{StaticResource HighlightWatermarkTextBox}" TargetType="customControls:WatermarkTextBox" />
+    <Style BasedOn="{StaticResource NumericUpDownStyle}" TargetType="customControls:NumericUpDown" />
+    <Style BasedOn="{StaticResource RoundableToggleButtonStyle}" TargetType="customControls:RoundableToggleButton" />
+    <Style BasedOn="{StaticResource WatermarkTextBoxStyle}" TargetType="customControls:WatermarkTextBox" />
 </ResourceDictionary>
