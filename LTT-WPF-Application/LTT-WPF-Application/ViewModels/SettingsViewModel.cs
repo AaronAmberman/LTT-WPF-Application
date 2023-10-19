@@ -169,6 +169,8 @@ namespace LTT_WPF_Application.ViewModels
 
                 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo(Settings.Default.Language);
 
+                ((Translation)ServiceLocator.Instance.MainWindowViewModel.Translations).Dispose();
+
                 ServiceLocator.Instance.MainWindowViewModel.Translations = new Translation(new ResourceDictionary
                 {
                     Source = new Uri($"pack://application:,,,/Translations/Translations.{Settings.Default.Language}.xaml")
