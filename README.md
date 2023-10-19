@@ -2,6 +2,8 @@
 ## Logged Translated Themed WPF Application
 A logged translated themed (light and dark) WPF application template that can make starting a new modern day application very easy. 
 
+Check out my [Visual Studio project template](https://github.com/AaronAmberman/LTT-WPF-App-VS-ProjectTemplate) for it!!!
+
 ### Settings Window
 There is already a settings [InternalDialog](https://github.com/AaronAmberman/WPF.InternalDialogs) that can be opened via a button at the top right of the main window. Nuget package available [here](https://www.nuget.org/packages/WPF.InternalDialogs/).
 
